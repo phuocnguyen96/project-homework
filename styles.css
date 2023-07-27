@@ -1,0 +1,297 @@
+/* config all */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(252, 252, 240)
+}
+
+/* Header */
+
+header {
+    margin: 0 auto;
+    background: url(https://www.cgv.vn/skin/frontend/cgv/default/images/bg-cgv/bg-top.png) repeat-x scroll left bottom transparent;
+    background-size: 10px 135px;
+    height: 135px;
+
+    
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    position: relative;
+    width: 980px;
+    margin: 0px auto;
+}
+
+.header .header-content .header-logo img {
+    margin-top: 40px;
+}
+
+.header .header-content .header-logo img:hover {
+    opacity: 0.5;
+}
+
+.header .header-content .header-menu nav {
+    
+}
+
+.header .header-content .header-menu nav li {
+    list-style-type: none;
+    display: inline;
+    padding-right: 20px;
+    font-weight: 1000;
+}
+
+.header .header-content .header-menu nav li:hover {
+    opacity: 0.5;
+    color: steelblue;
+}
+
+.header .header-content .header-menu nav img {
+    position: absolute;
+    top: 74px;
+    right: 135px;
+}
+
+.header .header-content .header-qc {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: -16px;
+    width: 25%;
+    padding: 0;
+    }
+
+.header .header-content .header-qc .qc-trai {
+    position: absolute;
+    top: 38px;
+    right: 29px;
+}
+
+    .header .header-content .header-qc .qc-phai {
+    position: absolute;
+    top: -1px;
+    right: -61px;
+    }    
+
+    /* End Header  */
+
+    /* Section */
+
+    .section {
+        padding: 30px 0 0 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .section .section-trai {
+        width: 540px;
+        height: 400px;
+    }
+
+    .section .section-trai .dn-dk {
+        background-color: #e71a0f;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 600;
+        padding: 20px 20px 10px;
+        text-align: left;
+        width: 530px;
+        position: relative;
+    }
+    .section .section-trai .ngang {
+        height: 2px;
+        width: 125px;
+        background-color: white;
+        position: absolute;
+        left: 42px;
+        bottom: 0px;
+    }
+
+    .section .section-trai .dn-dk span {
+        margin: 0 20px;
+        padding: 20px 15px 8px;
+        font-size: 17px;
+    }
+    
+    .section .section-trai .dang-nhap {
+        padding: 25px 20px 10px 15px;
+    }
+
+    .section .section-trai .dang-nhap .id {
+        margin-bottom: 10px;
+    }
+
+    .section .section-trai .dang-nhap .pw {
+        margin-bottom: 25px;
+    }
+
+    .section .section-trai .dang-nhap .capcha {
+        display: flex;
+        position: relative;
+    }
+    
+    .section .section-trai .dang-nhap .id label,
+    .section .section-trai .dang-nhap .pw label,
+    .section .section-trai .dang-nhap .capcha label {
+        margin-bottom: 7px;
+        font-weight: 600;
+        display: inline-block;
+    }
+
+    .section .section-trai .dang-nhap .id input,
+    .section .section-trai .dang-nhap .pw input {
+        width: 490px;
+        font-size: 20px;
+    }
+
+    .section .section-trai .dang-nhap .capcha input {
+        font-size: 20px;
+        width: 75%;
+    }
+
+    .section .section-trai .dang-nhap .capcha span {
+        color: red;
+        margin-left: 2px;
+    }
+
+    .section .section-trai .dang-nhap .capcha .capcha-phai .hinh-capcha {
+        position: absolute;
+        right: 130px;
+        top: 4px;
+        width: 165px;
+        height: 50px;
+    }
+
+    .section .section-trai .dang-nhap .capcha .capcha-phai .hinh-reload {
+        position: absolute;
+        right: 135px;
+        top: -1px;
+    }
+    
+    .section .section-trai .button {
+        padding: 25px 20px 10px 15px;
+        text-align: center;
+        color: rgb(41, 41, 253);
+    }
+    
+    .section .section-trai .button button {
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 15px 200px;
+    }
+
+.section .section-phai {
+    width: 442px;
+    height: 555px;
+}
+
+.section .section-phai .phai-hinh img {
+    width: 100%;
+}
+
+.section .section-phai .phai-icons {
+    text-align: center;
+}
+
+
+.section .section-phai .phai-icons i {
+    font-size: 15px;
+    color: gray;
+    padding-left: 5px;
+    
+}
+
+.section .section-phai .phai-icons i:hover {
+    color: red;
+}
+
+/* End Section */
+
+/* Start Footer */
+
+    footer {
+
+        /* background: url(https://www.cgv.vn/skin/frontend/cgv/default/images/bg-cgv/bg-bottom-footer.jpg) repeat-x scroll center bottom rgba(0, 0, 0, 0);
+        padding-bottom: 120px; */
+
+        padding-top: 20px;
+        
+    }
+    
+
+    .footer .footer-brands {
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        height: 45px;
+        width: 100%;
+    }
+
+    .footer .footer-middle {
+        height: 190px;
+        border-bottom: 2px solid black;
+
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        padding: 15px 20px 15px 15px;
+        opacity: 0.7;
+    }
+
+    .footer .footer-middle .middle-intro,
+    .footer .footer-middle .middle-terms,
+    .footer .footer-middle .middle-connect {
+        width: 220px;
+    }
+     
+    .footer .footer-middle .middle-services {
+        width: 260px;
+    }
+
+    .footer .footer-middle nav {
+        list-style-type: none;
+    }
+
+    .footer .footer-middle nav li {
+        font-weight: 18px;
+    }
+
+    .footer .footer-middle i {
+        font-size: 40px;
+    }
+
+    .footer .footer-middle h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    
+
+    .footer .footer-end {
+        background-image: url(https://www.cgv.vn/skin/frontend/cgv/default/images/bg-cgv/common_sprite_area.png);
+        background-position: -145px -319px;
+        height: 43px;
+        width: 120px;
+        margin-top: 30px;
+        text-align: center;
+        
+    }
+
+    .footer .footer-end .end-logo {
+        width: 120px;
+        height: 43px;
+    }
+
+    .footer .footer-end .end-info {
+        width: 785px;
+        height: 114px;
+        display: inline-block;
+    }
